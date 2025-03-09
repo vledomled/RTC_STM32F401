@@ -61,6 +61,7 @@ void Error_Handler(void);
 #define USER_LED_GPIO_Port GPIOC
 #define USER_BTN_Pin GPIO_PIN_0
 #define USER_BTN_GPIO_Port GPIOA
+#define USER_BTN_EXTI_IRQn EXTI0_IRQn
 #define DISP_SCL_Pin GPIO_PIN_6
 #define DISP_SCL_GPIO_Port GPIOB
 #define DISP_SDA_Pin GPIO_PIN_7
